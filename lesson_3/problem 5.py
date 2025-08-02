@@ -27,7 +27,6 @@ def most_common_char(string):
     count = {}
     ans = ''
     for char in string.lower():
-
         count[char] = count.get(char, 0) + 1
     max = 0
     for key, value in count.items():
